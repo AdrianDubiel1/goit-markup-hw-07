@@ -67,4 +67,10 @@ textarea {
   border: none;
   line-height: 1.17;
   display: flex;
+  &:hover,
+  &:focus {
+    color: $active-color;
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
+  }
 }

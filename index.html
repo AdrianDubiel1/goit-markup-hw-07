@@ -24,30 +24,30 @@
     <header>
       <div class="container">
         <div class="header">
-          <a class="link logo" href="/goit-markup-hw-06/"
+          <a class="link logo" href="/goit-markup-hw-07/"
             ><span class="logo--first">Web</span>
             <span class="logo--dark">Studio</span></a
           >
           <nav class="navigation">
             <ul class="header1">
-              <li class="agencja">
-                <div class="now">
-                  <a class="link now-1" href="/goit-markup-hw-06/index.html"
+              <li class="navigation__agency">
+                <div class="navigation__agency--now">
+                  <a class="link now-1" href="/goit-markup-hw-07/index.html"
                     >Agencja</a
                   >
                 </div>
               </li>
-              <li class="portfolio">
-                <a class="link" href="/goit-markup-hw-06/portfolio.html"
+              <li class="navigation__portfolio">
+                <a class="link" href="/goit-markup-hw-07/portfolio.html"
                   >Portfolio</a
                 >
               </li>
-              <li class="kontakt"><a class="link" href="#">Kontakt</a></li>
+              <li class="navigation__kontakt"><a class="link" href="#">Kontakt</a></li>
             </ul>
           </nav>
-          <ul class="contact-nav header2">
-            <li class="mail">
-              <a class="link-addres icon-mail" href="mailto:info@devstudio.com"
+          <ul class="contact-nav header1">
+            <li class="contact-nav__mail">
+              <a class="contact-nav__addres icon-mail" href="mailto:info@devstudio.com"
                 ><svg width="16px" height="12px">
                   <use href="images/icons.svg#icon-envelope-1"></use>
                 </svg>
@@ -55,7 +55,7 @@
               >
             </li>
             <li>
-              <a class="link-addres icon-mail" href="tel:+48111111111">
+              <a class="contact-nav__addres icon-mail" href="tel:+48111111111">
                 <svg width="13px" height="16px">
                   <use href="images/icons.svg#icon-smartphone"></use>
                 </svg>
@@ -474,10 +474,10 @@
             </li>
           </ul>
         </div>
-        <div class="a">
+        <div class="newsletter-area">
           <form>
-            <div class="newsletter-head">Zapisz się do newslettera</div>
-            <label class="newsletter">
+            <div class="newsletter">Zapisz się do newslettera</div>
+            <label class="newsletter__label">
               <input
                 class="input-footer"
                 type="email"
@@ -485,46 +485,46 @@
                 placeholder="E-mail"
               />
             </label>
-            <svg class="button-icon" width="24px" height="24px">
+            <svg class="newsletter__button-icon" width="24px" height="24px">
               <use href="images/icons.svg#icon-icon-send"></use>
             </svg>
-            <button class="newsletter-button" type="submit">Zapisz się</button>
+            <button class="newsletter__button" type="submit">Zapisz się</button>
           </form>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close" data-modal-close>
+        <button type="button" class="modal__close" data-modal-close>
           <svg width="18px" height="18px">
             <use href="images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
         <form>
-          <p class="form-title">Zostaw swoje dane w formularzu poniżej</p>
-          <div class="form-area">
-            <label class="form-name-element">
+          <p class="form__title">Zostaw swoje dane w formularzu poniżej</p>
+          <div class="form">
+            <label class="form__element">
               Imie
-              <input class="input" type="text" name="name" />
-              <svg class="icon-user" width="18px" height="18px">
+              <input class="form__input" type="text" name="name" />
+              <svg class="form__input--icon-user" width="18px" height="18px">
                 <use href="images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
             </label>
-            <label class="form-name-element">
+            <label class="form__element">
               Telefon
-              <input class="input" type="tel" name="telefon" />
-              <svg class="icon-tel" width="13px" height="13px">
+              <input class="form__input" type="tel" name="telefon" />
+              <svg class="form__input--icon-tel" width="13px" height="13px">
                 <use href="images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </label>
-            <label class="form-name-element">
+            <label class="form__element">
               Email
-              <input class="input" type="email" name="email" />
-              <svg class="icon-email" width="15px" height="12px">
+              <input class="form__input" type="email" name="email" />
+              <svg class="form__input--icon-email" width="15px" height="12px">
                 <use href="images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
             </label>
-            <label class="form-name-element">
+            <label class="form__element">
               Komentarz
               <textarea
                 name="komentarz"
@@ -533,18 +533,18 @@
             </label>
           </div>
           <label>
-            <svg class="no-checked" width="16px" height="15px">
+            <svg class="checked__no" width="16px" height="15px">
               <use href="images/icons.svg#icon-Vector"></use>
             </svg>
-            <input class="check" type="checkbox" name="regulamin" />
-            <svg class="checked" width="16px" height="15px">
+            <input class="checked" type="checkbox" name="regulamin" />
+            <svg class="checked__yes" width="16px" height="15px">
               <use href="images/icons.svg#icon-Vector-1"></use>
             </svg>
           </label>
           <p class="private-policy">
             Oświadczam iż akceptuję&nbsp;
-            <a class="private-policy-link" href=""> Regulamin</a>&nbsp;i&nbsp;
-            <a class="private-policy-link" href=""> Politykę Prywatności.</a>
+            <a class="private-policy__link" href=""> Regulamin</a>&nbsp;i&nbsp;
+            <a class="private-policy__link" href=""> Politykę Prywatności.</a>
           </p>
           <button class="button-modal" type="submit">Wyślij</button>
         </form>

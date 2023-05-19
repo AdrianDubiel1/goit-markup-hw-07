@@ -1,3 +1,4 @@
+@use "../utils/_vars" as *;
 .footer-addres {
   max-width: 246px;
 }
@@ -13,11 +14,25 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    &:hover,
+    &:focus {
+      color: $active-color;
+      transition-duration: $duration;
+      transition-timing-function: $timing-function;
+    }
   }
+
   &__mail {
     color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.3px;
+    &:hover,
+    &:focus {
+      color: $active-color;
+      transition-duration: $duration;
+      transition-timing-function: $timing-function;
+    }
   }
 }
