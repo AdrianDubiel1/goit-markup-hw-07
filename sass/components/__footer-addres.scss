@@ -1,0 +1,23 @@
+.footer-addres {
+  max-width: 246px;
+}
+.address {
+  padding: 0 0 60px 0px;
+}
+.adress {
+  display: flex;
+  flex-direction: column;
+  &__maps {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  &__mail {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.3px;
+  }
+}

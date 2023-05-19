@@ -1,0 +1,24 @@
+@use "../utils/_vars" as *;
+.logo {
+  display: flex;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+}
+.logo--footer {
+  padding: 60px 171px 20px 0px;
+}
+.logo--first {
+  color: $active-color;
+  line-height: 1.17;
+}
+.logo--white {
+  color: #ffffff;
+  line-height: 1.17;
+}
+.logo--dark {
+  color: #000000;
+  line-height: 1.17;
+}
