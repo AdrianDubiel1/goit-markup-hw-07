@@ -6,6 +6,9 @@
     position: relative;
     overflow: hidden;
     flex-basis: calc((100% - 2 * 30px) / 3);
+    & > .what-we-do__description {
+      position: absolute;
+    }
   }
   &__description {
     font-weight: 700;
@@ -21,7 +24,4 @@
     width: 370px;
     bottom: 0;
   }
-}
-.what-we-do-img > .what-we-do__description {
-  position: absolute;
 }

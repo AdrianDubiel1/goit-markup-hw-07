@@ -53,9 +53,9 @@
   line-height: 1.25;
   letter-spacing: 0.03em;
   margin-left: 78px;
-}
-.input-footer:is(:hover, :focus-within) {
-  border-color: rgba(33, 150, 243, 1);
-  transition-duration: $duration;
-  transition-timing-function: $timing-function;
+  &:is(:hover, :focus-within) {
+    border-color: rgba(33, 150, 243, 1);
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
+  }
 }

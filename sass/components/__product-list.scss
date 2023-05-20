@@ -12,6 +12,11 @@
       0px 1px 1px 0px #00000012;
     transition-duration: $duration;
     transition-timing-function: $timing-function;
+    &:hover .product-bgn__description {
+      transform: translateY(0%);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 }
 .product-bgn {
@@ -32,11 +37,6 @@
     background: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
   }
-}
-.product-img:hover .product-bgn__description {
-  transform: translateY(0%);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project {
   padding: 20px 24px;
