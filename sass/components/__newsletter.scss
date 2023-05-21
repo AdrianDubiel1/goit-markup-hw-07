@@ -1,7 +1,5 @@
 @use "../utils/_vars" as *;
-.newsletter-area {
-  position: relative;
-}
+
 .newsletter {
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
@@ -9,15 +7,12 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   padding: 72px 0 0 78px;
+  &-area {
+    position: relative;
+  }
   &__label {
     display: flex;
     display: inline;
-  }
-  &__button-icon {
-    position: absolute;
-    fill: rgba(255, 255, 255, 1);
-    top: 122px;
-    left: 590px;
   }
   &__button {
     display: flex;
@@ -35,6 +30,12 @@
     border: none;
     padding-right: 24px;
     cursor: pointer;
+    &-icon {
+      position: absolute;
+      fill: rgba(255, 255, 255, 1);
+      top: 122px;
+      left: 590px;
+    }
   }
 }
 .input-footer {
